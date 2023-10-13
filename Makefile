@@ -6,27 +6,32 @@ all		:
 		@./_unix
 
 01		:
-		cc -Wall -Wextra -Werror 01_unix.c -o _unix 
+		cc -g -pthread 01_unix.c -o _unix 
 		@echo -e
 		@./_unix
 
 02		:
-		cc -Wall -Wextra -Werror 02_unix.c -o _unix 
+		cc -g -pthread 02_unix.c -o _unix 
 		@echo -e
 		@./_unix
 
-03		:
-		cc -Wall -Wextra -Werror 03_unix.c -o _unix 
+03_1	:
+		cc -g -pthread 03_1_unix.c -o _unix 
+		@echo -e
+		@./_unix
+
+03_2	:
+		cc -g -pthread 03_2_unix.c -o _unix 
 		@echo -e
 		@./_unix
 
 04		:
-		cc -Wall -Wextra -Werror 04_unix.c -o _unix 
+		cc -g -pthread 04_unix.c -o _unix 
 		@echo -e
 		@./_unix
 
 05		:
-		cc -Wall -Wextra 05_unix.c -o _unix 
+		cc -g -pthread 05_unix.c -o _unix 
 		@echo -e
 		@./_unix
 
