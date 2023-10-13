@@ -9,7 +9,7 @@
  *
  */
 
-void	*routine()
+void	routine()
 {
 	printf("Test from threads\n");
 }
