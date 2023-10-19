@@ -15,6 +15,9 @@
  *		- increment.
  *		- write mails.
  *		Each thread incremented the mails variable once.
+ *
+ * To see the race conditions compile:
+ * cc -S 05_unix.c
  */
 
 int mails = 0;
