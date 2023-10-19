@@ -35,33 +35,38 @@ all		:
 		@echo -e
 		@./_unix
 
+05s		:
+		cc -S 05_unix.c -o Sunix 
+		@echo -e
+		@./_unix
+
 06		:
-		cc -Wall -Wextra -Werror 06_unix.c -o _unix 
+		cc -g -pthread 06_unix.c -o _unix 
 		@echo -e
 		@./_unix
 
 07		:
-		cc -Wall -Wextra -Werror 07_unix.c -o _unix 
+		cc -g -pthread 07_unix.c -o _unix 
 		@echo -e
 		@./_unix
 
 08		:
-		cc -Wall -Wextra -Werror 08_unix.c -o _unix 
+		cc -g -pthread 08_unix.c -o _unix 
 		@echo -e
 		@./_unix
 
 09		:
-		cc -Wall -Wextra -Werror 09_unix.c -o _unix 
+		cc -g -pthread 09_unix.c -o _unix 
 		@echo -e
 		@./_unix
 
 10		:
-		cc -Wall -Wextra -Werror 10_unix.c -o _unix 
+		cc -g -pthread 10_unix.c -o _unix 
 		@echo -e
 		@./_unix
 
 11		:
-		cc -Wall -Wextra -Werror 11_unix.c -o _unix 
+		cc -g -pthread 11_unix.c -o _unix 
 		@echo -e
 		@./_unix
 
